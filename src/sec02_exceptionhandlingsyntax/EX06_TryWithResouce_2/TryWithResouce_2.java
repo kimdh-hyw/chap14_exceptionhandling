@@ -42,7 +42,5 @@ public class TryWithResouce_2 {
 		} catch (Exception e) {
 			System.out.println("예외처리");
 		} 		
-		
-		
 	}
 }

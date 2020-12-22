@@ -31,7 +31,7 @@ class B {
 	}
 }
 
-
 public class ThrowsException_3 {
-
+	public static void main(String[] args) {		
+	}
 }

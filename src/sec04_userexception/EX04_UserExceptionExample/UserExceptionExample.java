@@ -42,7 +42,6 @@ public class UserExceptionExample {
 			System.out.println(e.getMessage());
 		}
 	}
-
 }
 
 

@@ -9,18 +9,18 @@ public class UncheckedException {
 		//#. UncheckedException (실행예외) = RuntimeException
 		
 		//#1. ArithmeticException
-		//System.out.println(3/0);
+		System.out.println(3/0);
 		
 		//#2. ClassCastException
-//		A a = new A();
-//		B b = (B)a;
+		A a = new A();
+		B b = (B)a;
 		
 		//#3. ArrayIndexOutOfBoundException
-//		int[] array = {1, 2, 3};
-//		System.out.println(array[3]);
+		int[] array = {1, 2, 3};
+		System.out.println(array[3]);
 		
 		//#4. NumberFormatException
-		//int num = Integer.parseInt("10!");
+		int num = Integer.parseInt("10!");
 		
 		//#5. NullPointerException
 		String str = null;

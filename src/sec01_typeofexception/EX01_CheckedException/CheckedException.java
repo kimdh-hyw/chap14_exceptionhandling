@@ -1,5 +1,8 @@
 package sec01_typeofexception.EX01_CheckedException;
 
+import java.io.FileInputStream;
+import java.io.InputStreamReader;
+
 class A { //extends Object
 	protected Object clone() throws CloneNotSupportedException {
 		return super.clone();
@@ -11,13 +14,13 @@ public class CheckedException {
 		//# Checked Exception
 		
 		//#1. InterruptedException
-		//Thread.sleep(1000);
+//		Thread.sleep(1000);
 		
 		//#2. ClassNotFoundException
 //		Class cls = Class.forName("java.lang.Object");
 		
 		//#3. IOException
-//		InputStreamReader in = new InputStreamReader(System.in);
+		InputStreamReader in = new InputStreamReader(System.in);
 //		in.read();
 		
 		//#4. FileNotFoundException
