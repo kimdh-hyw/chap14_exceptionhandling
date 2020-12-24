@@ -5,9 +5,6 @@ class A implements AutoCloseable {
 	A(String resouce){
 		this.resource = resouce;
 	}
-	void abc() throws Exception {
-		
-	}	
 	@Override
 	public void close() throws Exception {
 		if(resource!=null) {
@@ -24,7 +21,6 @@ public class TryWithResouce_2 {
 		A a1 = null;	
 		try {
 			a1 = new A("특정파일");
-			a1.abc();
 		} catch (Exception e) {
 			System.out.println("예외처리");
 		} finally {
@@ -38,7 +34,7 @@ public class TryWithResouce_2 {
 		
 		//#2. 자동 리소스 해제	
 		try (A a2 = new A("특정파일");) {			
-			a2.abc();
+
 		} catch (Exception e) {
 			System.out.println("예외처리");
 		} 		
