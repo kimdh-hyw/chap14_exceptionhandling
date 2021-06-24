@@ -16,7 +16,7 @@ public class MultiCatch_3 {
 		}
 
 
-		//#2. catch 블록을 하나로 통일한 경우 		
+		//#2. catch 블록을 하나로 통합한 경우 		
 		try {
 			System.out.println(3/1);
 			int num = Integer.parseInt("10A");			
