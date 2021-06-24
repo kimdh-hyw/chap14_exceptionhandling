@@ -11,7 +11,7 @@ class A { //extends Object
 
 public class CheckedException {
 	public static void main(String[] args) {
-		//# Checked Exception
+		//# Checked Exception (일반예외)
 		
 		//#1. InterruptedException
 //		Thread.sleep(1000);
